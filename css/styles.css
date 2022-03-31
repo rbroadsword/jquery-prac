@@ -1,11 +1,25 @@
-.hippo-showing {
+#hippo-showing {
   display: none;
 }
-p {
+
+#otter-showing {
+  display: none; 
+}
+
+.clickable {
   cursor: pointer;
   color: #0088cc;
 }
 
-p:hover {
+.clickable: hover {
   text-decoration: underline;
 }
+.clickable1 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable1: hover {
+  text-decoration: underline;
+}
+
